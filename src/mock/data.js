@@ -31,12 +31,12 @@ export const projectsData = [
     id: nanoid(),
     img: 'tic_tac_toe.PNG',
     title: 'tic-tac-toe game',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    info: 'I created this game in Vue.js. I wanted to make a simple AI for a game.',
+    info2: 'Vue.js',
+    url: 'https://hyakkushiki.github.io/tic-tac-toe/',
+    repo: 'https://github.com/Hyakkushiki/tic-tac-toe', // if no repo, the button will not show up
   },
-  {
+  /* {
     id: nanoid(),
     img: 'project.jpg',
     title: '',
@@ -44,7 +44,7 @@ export const projectsData = [
     info2: '',
     url: '',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
+  }, */
 ];
 
 // CONTACT DATA
