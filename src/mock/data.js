@@ -4,41 +4,33 @@ import { nanoid } from 'nanoid';
 export const headData = {
   title: '', // e.g: 'Name | Developer'
   lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  description: 'XXX', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
+  img: 'tokyo_skyline.jpg',
   title: '',
-  name: '',
-  subtitle: '',
+  name: 'Corwin',
+  subtitle: 'I like creating',
   cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
-  paragraphOne: '',
+  img: 'gundam_head.png',
+  paragraphOne: "Hello, I'm a mechanical engineer currently located in Japan and I love creating things. I'm an Alumnus of The Georgia Institute of Technology. My degree and working experience has given me a strong background in analysis and design. I love facing challenging problems and being able to design solutions. My hope is that my programming projects can apply my engineering knowledge to real problems.",
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: '', // 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
+    img: 'tic_tac_toe.PNG',
+    title: 'tic-tac-toe game',
     info: '',
     info2: '',
     url: '',
@@ -65,30 +57,30 @@ export const contactData = {
 // FOOTER DATA
 export const footerData = {
   networks: [
-    {
-      id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
+    // {
+    //   id: nanoid(),
+    //   name: 'twitter',
+    //   url: '',
+    // },
     {
       id: nanoid(),
       name: 'codepen',
-      url: '',
+      url: 'https://codepen.io/Hyakkushiki',
     },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/corwz/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/Hyakkushiki',
     },
   ],
 };
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
