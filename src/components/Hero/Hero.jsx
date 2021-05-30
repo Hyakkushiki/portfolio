@@ -26,10 +26,10 @@ const Header = () => {
   return (
     <section id="hero" className="jumbotron" style={{ backgroundImage: `url(${background})` }}>
       <Container >
-        <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
+        <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={50} distance="30px">
           <h1 className="hero-title">
-            {title || "Hi, i'm"}{' '}
-            <span className="text-color-main">{name || ''}</span>
+            {"Hi, i'm"}{' '}
+            <span className="text-color-main">{'Corwin'}</span>
             <br />
             {subtitle || ""}
           </h1>

@@ -10,7 +10,7 @@ export const headData = {
 // HERO DATA
 export const heroData = {
   img: 'tokyo_skyline.jpg',
-  title: '',
+  title: "Hi, i'm",
   name: 'Corwin',
   subtitle: 'I like creating',
   cta: '',
