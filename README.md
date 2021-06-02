@@ -8,4 +8,4 @@
 
 ## Status
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/2365af6f-820a-4fb8-83e6-69a66f686dfe/deploy-status)](https://app.netlify.com/sites/hyakkushiki/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/dee5a6d8-68a6-4185-a401-4a9299ba9e0e/deploy-status)](https://app.netlify.com/sites/hyakkushiki/deploys)
