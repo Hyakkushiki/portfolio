@@ -36,6 +36,15 @@ export const projectsData = [
     url: 'https://hyakkushiki.github.io/tic-tac-toe/',
     repo: 'https://github.com/Hyakkushiki/tic-tac-toe',
   },
+  {
+    id: nanoid(),
+    img: 'snek-preview.PNG',
+    title: 'snek game',
+    info: 'I wanted to make a game that moves and learn more about React',
+    info2: 'React - Typescript',
+    url: 'https://hyakkushiki.github.io/Snek_Game/',
+    repo: 'https://github.com/Hyakkushiki/Snek_Game',
+  },
 ];
 
 // CONTACT DATA
