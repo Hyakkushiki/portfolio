@@ -45,6 +45,15 @@ export const projectsData = [
     url: 'https://hyakkushiki.github.io/Snek_Game/',
     repo: 'https://github.com/Hyakkushiki/Snek_Game',
   },
+  {
+    id: nanoid(),
+    img: 'travel-app-preview.PNG',
+    title: 'japan travel app',
+    info: 'currently building up a travel information app',
+    info2: 'React - Typescript, google maps API',
+    url: 'https://hyakkushiki.github.io/Japan-Travel/',
+    repo: 'https://github.com/Hyakkushiki/Japan-Travel',
+  },
 ];
 
 // CONTACT DATA
